@@ -1,57 +1,71 @@
+/* General Styles for the whole body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: black;  /* Set the background to black */
+    color: white;             /* Set the text color to white */
+    font-size: 24px;          /* Set the default font size to be larger */
 }
 
+/* Header */
 header {
-    background-color: #333;
+    background-color: #333;  /* Dark background for the header */
     color: white;
-    padding: 10px 20px;
-    position: absolute;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
 }
 
-header h1 {
-    margin: 0;
-    display: inline-block;
-    padding-right: 20px; /* Space between the title and the nav */
+/* Style for the icon in the header */
+.home-icon img {
+    width: 40px; /* Slightly larger icon */
+    height: 40px;
+    margin-right: 20px;
 }
 
+/* Navigation Menu */
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: inline-block;
+    display: flex;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 24px;  /* Larger font size for links */
 }
 
+/* Section Content */
 section {
     padding: 20px;
-    margin: 20px;
-    background-color: white;
+    margin: 80px 20px 20px 20px; /* Added margin top to avoid header overlap */
+    background-color: black;      /* Set section background to black */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 28px;              /* Larger font size for section text */
 }
 
+/* Footer */
 footer {
-    background-color: #333;
+    background-color: #333;  /* Dark footer background */
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-size: 20px;  /* Slightly smaller text for the footer */
 }
