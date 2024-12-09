@@ -1,112 +1,50 @@
-/* General Styles */
-
-/* Body */
-
 body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
 }
 
-/* Header & Footer  */
-header, footer {
-    background-color: black;
-    color: white;
-}
-
-footer {
-    padding: 20px;
-    text-align: center;
-}
-
-header .logo a img {
-    width: 40px; /* Icon size */
-    height: 40px;
+header {
+    background: #1f1f1f;
+    padding: 1rem 0;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    list-style: none;
     display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-left: 20px;
+    margin: 0 1rem;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
-/* Hero Section */
-.hero {
-    height: 100vh; /* Full viewport height */
-    background-image: url('hero-background.jpg'); /* Replace with your own image */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 20px;
-}
-
-.hero-content h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-}
-
-.hero-content p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-}
-
-.cta-button {
-    background-color: #FF5733;
-    color: white;
-    padding: 15px 30px;
+    color: #ffffff;
     font-size: 1.2rem;
-    text-decoration: none;
-    border-radius: 5px;
-    text-transform: uppercase;
+    transition: color 0.3s;
 }
 
-.cta-button:hover {
-    background-color: #C7432B;
+nav ul li a:hover {
+    color: #f39c12;
 }
 
-/* About Section */
-section#about {
-    padding: 60px 20px;
-    background-color: #222;
+main {
     text-align: center;
+    padding: 2rem;
 }
 
-section#about h2 {
+h1 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
-section#about p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Footer */
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 20px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background: #1f1f1f;
+    padding: 1rem 0;
+    margin-top: 2rem;
 }
