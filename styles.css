@@ -1,17 +1,17 @@
 body {
     margin: 0;
     font-family: "Courier New", Courier, monospace;
-    background-color: #000000;
-    color: #00FF00;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000; /* Changed to black */
+    background-color: #000000; /* Black background */
     padding: 10px 20px;
-    color: #FFFFFF; /* Changed to white */
+    color: #FFFFFF; /* White text */
 }
 
 nav ul {
@@ -23,7 +23,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #FFFFFF; /* Changed to white */
+    color: #FFFFFF; /* White text for links */
     text-decoration: none;
     font-size: 18px;
 }
@@ -43,17 +43,18 @@ main {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #FFFFFF; /* White text */
 }
 
 .icon {
     font-size: 24px;
-    color: #FFFFFF; /* Changed to white */
+    color: #000000; /* Black icons */
     text-decoration: none;
     margin-left: 10px;
 }
 
 .github-icon {
     font-size: 18px;
-    color: #FFFFFF; /* Changed to white */
+    color: #000000; /* Black GitHub icon */
     text-decoration: none;
 }
