@@ -9,9 +9,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #003300;
+    background-color: #000000; /* Changed to black */
     padding: 10px 20px;
-    color: #00FF00;
+    color: #FFFFFF; /* Changed to white */
 }
 
 nav ul {
@@ -23,7 +23,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #00FF00;
+    color: #FFFFFF; /* Changed to white */
     text-decoration: none;
     font-size: 18px;
 }
@@ -47,13 +47,13 @@ h1 {
 
 .icon {
     font-size: 24px;
-    color: #00FF00;
+    color: #FFFFFF; /* Changed to white */
     text-decoration: none;
     margin-left: 10px;
 }
 
 .github-icon {
     font-size: 18px;
-    color: #00FF00;
+    color: #FFFFFF; /* Changed to white */
     text-decoration: none;
 }
