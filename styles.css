@@ -46,19 +46,14 @@ h1 {
     color: #FFFFFF; /* White text */
 }
 
-.icon {
-    font-size: 24px;
-    color: #000000; /* Black icons */
-    text-decoration: none;
-    margin-left: 10px;
-}
+/* Removed .icon class as it was for the cat icon */
 
 /* GitHub icon using the SVG image */
 .github-icon {
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url('github.svg'); /* Path to the GitHub logo SVG test */
+    background-image: url('github.svg'); /* Path to the GitHub logo SVG */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
