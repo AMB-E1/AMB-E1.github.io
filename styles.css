@@ -58,7 +58,7 @@ h1 {
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url('github.svg'); /* Path to the GitHub logo SVG */
+    background-image: url('github.svg'); /* Path to the GitHub logo SVG test */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
