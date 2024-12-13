@@ -53,8 +53,14 @@ h1 {
     margin-left: 10px;
 }
 
+/* GitHub icon using the SVG image */
 .github-icon {
-    font-size: 18px;
-    color: #000000; /* Black GitHub icon */
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('github.svg'); /* Path to the GitHub logo SVG */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     text-decoration: none;
 }
