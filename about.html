@@ -5,6 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline style for the white box */
+        .content-box {
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+            border: 1px solid #ccc; /* Light border */
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f4f4f4; /* Light gray background */
+            font-family: Arial, sans-serif; /* Clean font */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,8 +61,17 @@
         </nav>
         <a href="https://github.com/" class="github-icon" target="_blank">🐱 GitHub</a>
     </header>
+
     <main>
         <h1>About Hacker Hub</h1>
+        <div class="content-box">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel tincidunt aliquet, felis purus fringilla ligula, a malesuada sapien elit nec justo. Phasellus a viverra mi. Ut id purus quis nulla interdum vehicula. Duis sed nisl vel ipsum faucibus congue vel at lectus. Integer gravida, nisi ac vestibulum consequat, sapien odio malesuada justo, non cursus neque lorem vel mi. Vivamus volutpat metus id velit sodales, in tristique nisl interdum. Aenean ultricies metus eget sapien cursus euismod. 
+            </p>
+            <p>
+                Nunc eget sem id massa facilisis dapibus. Suspendisse potenti. In id commodo quam. Maecenas tincidunt eros nec magna pharetra, vel ultricies justo laoreet. Sed ut odio quam. Ut gravida orci vel justo luctus aliquet. Vestibulum consequat cursus eros, id pellentesque felis hendrerit vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+            </p>
+        </div>
     </main>
 </body> 
 </html>
