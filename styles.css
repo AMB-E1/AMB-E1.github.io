@@ -44,34 +44,30 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-/* Hero Section */
-.hero {
-    background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
-    height: 400px;
-}
-
 /* Content Container */
 .content-container {
     background: #fff;
     color: #000; /* Black text */
-    width: 80%;
-    max-width: 1000px;
-    margin: -50px auto 20px; /* Moves the box slightly upward */
-    padding: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    width: 90%; /* Increased width */
+    max-width: 1200px; /* Allow larger max width */
+    margin: 50px auto; /* Center the box with some spacing from top */
+    padding: 60px; /* Increased padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+    border-radius: 8px; /* Slightly rounded corners */
 }
 
 .content-container h2 {
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2.5rem; /* Slightly larger title */
     color: #000; /* Black text */
+    text-align: center; /* Center the heading */
 }
 
 .content-container p {
-    margin-bottom: 15px;
-    font-size: 1rem;
-    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.2rem; /* Larger text size */
+    line-height: 1.8; /* Better readability */
+    text-align: justify; /* Justify text for cleaner look */
 }
 
 /* Footer */
