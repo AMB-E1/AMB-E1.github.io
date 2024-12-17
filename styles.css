@@ -50,9 +50,9 @@ nav ul li a:hover {
     color: #000; /* Black text */
     width: 90%; /* Increased width */
     max-width: 1200px; /* Allow larger max width */
-    margin: 50px auto; /* Center the box with some spacing from top */
+    margin: 50px auto; /* Center the box with spacing from top */
     padding: 60px; /* Increased padding */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Prominent shadow */
     border-radius: 8px; /* Slightly rounded corners */
 }
 
@@ -60,20 +60,20 @@ nav ul li a:hover {
     margin-bottom: 20px;
     font-size: 2.5rem; /* Slightly larger title */
     color: #000; /* Black text */
-    text-align: center; /* Center the heading */
+    text-align: center;
 }
 
 .content-container p {
     margin-bottom: 20px;
-    font-size: 1.2rem; /* Larger text size */
-    line-height: 1.8; /* Better readability */
-    text-align: justify; /* Justify text for cleaner look */
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: #000000; /* Footer remains black */
+    color: #FFFFFF; /* White text */
 }
