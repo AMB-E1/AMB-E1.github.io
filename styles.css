@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Impact", sans-serif; /* Block letter font */
     background-color: #000000; /* Black background */
     color: #FFFFFF; /* White text */
 }
@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #000000; /* Black background */
-    padding: 15px 30px; /* Larger padding for emphasis */
+    padding: 15px 30px;
     color: #FFFFFF; /* White text */
 }
 
@@ -20,7 +20,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 20px; /* Larger spacing between nav items */
+    gap: 20px;
 }
 
 nav ul li a {
@@ -33,20 +33,24 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Enlarged Icons */
+/* Home Icon */
 .icon {
     font-size: 32px; /* Larger Home icon */
 }
 
+/* Enlarged and Visible GitHub Icon */
 .github-icon {
-    width: 32px; /* Larger GitHub icon */
-    height: 32px;
+    width: 48px; /* Increased size */
+    height: 48px;
     display: inline-block;
     background-image: url('github.svg'); /* Path to the GitHub logo SVG */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     text-decoration: none;
+    background-color: #FFFFFF; /* White background to make it pop */
+    padding: 5px; /* Padding around the logo */
+    border-radius: 5px; /* Slightly rounded edges */
 }
 
 /* Content Container */
@@ -54,7 +58,7 @@ nav ul li a:hover {
     background: #fff;
     color: #000; /* Black text */
     width: 90%;
-    max-width: 1200px;
+    max-width: 1200px; /* Allow larger max width */
     margin: 50px auto; /* Center the box with spacing from top */
     padding: 60px; /* Increased padding */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Prominent shadow */
