@@ -1,3 +1,4 @@
+/* Original styles */
 body {
     margin: 0;
     font-family: "Courier New", Courier, monospace;
@@ -46,9 +47,6 @@ h1 {
     color: #FFFFFF; /* White text */
 }
 
-/* Removed .icon class as it was for the cat icon */
-
-/* GitHub icon using the SVG image */
 .github-icon {
     width: 24px;
     height: 24px;
@@ -58,4 +56,54 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     text-decoration: none;
+}
+
+/* New styles */
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Content Box */
+.content-container {
+    background: #fff;
+    width: 80%;
+    max-width: 1000px;
+    margin: -50px auto 20px; /* Moves the box slightly upward */
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #333; /* Black text for readability */
+}
+
+.content-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #222; /* Dark gray */
+}
+
+.content-container p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
 }
