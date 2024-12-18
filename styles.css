@@ -40,8 +40,8 @@ nav ul li a:hover {
 
 /* Enlarged and Visible GitHub Icon */
 .github-icon {
-    width: 64px; /* Increased size */
-    height: 64px;
+    width: 48px; /* Increased size */
+    height: 48px;
     display: inline-block;
     background-image: url('github.svg'); /* Path to the GitHub logo SVG */
     background-size: contain;
